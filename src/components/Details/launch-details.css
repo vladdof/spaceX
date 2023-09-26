@@ -1,25 +1,26 @@
-/* details */
-
 .details-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 16px;
     margin-bottom: 30px;
 }
 
-.details-title {
-    font-size: 32px;
-    margin-bottom: 30px;
-}
-
-.details-image, .details-content {
+.details-image,
+.details-content {
     margin: 0 30px;
+}
+
+.details-image {
+    margin-top: 40px;
 }
 
 .details-youtube {
     margin: 0 auto;
     display: block;
+    width: 560px;
+    height: 315px;
 }
 
 .button-back {
