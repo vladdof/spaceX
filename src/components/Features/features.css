@@ -1,5 +1,3 @@
-/* features */
-
 .features {
     position: relative;
     max-width: 1230px;
@@ -88,7 +86,6 @@
 }
 
 @media (max-width: 576px) {
-
     .features {
         padding-top: 30px;
         padding-bottom: 0;
