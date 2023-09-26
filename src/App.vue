@@ -7,8 +7,8 @@
 </template>
 
 <script setup>
-    import TheHeader from '@/components/header/the-header.vue';
-    import TheFooter from '@/components/footer/the-footer.vue';
+    import TheHeader from './components/header/the-header.vue';
+    import TheFooter from './components/footer/the-footer.vue';
 
     import { storeToRefs } from 'pinia';
     import { useLaunchesStore } from './stores';

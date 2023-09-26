@@ -5,7 +5,7 @@
 <script setup>
     import { storeToRefs } from 'pinia';
     import { useLaunchesStore } from '../stores';
-    import LaunchDetails from '@/components/details/launch-details.vue';
+    import LaunchDetails from '../components/details/launch-details.vue';
 
     const { id } = defineProps({
         id: {
