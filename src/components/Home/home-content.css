@@ -15,8 +15,6 @@
 	line-height: 2;
 }
 
-
-
 .row {
 	display: flex;
 	flex-direction: column;
@@ -25,8 +23,6 @@
 	align-items: center;
 	height: 800px;
 }
-
-
 
 .home_table {
 	border: 1px solid white;
@@ -58,7 +54,7 @@
 	text-align: left;
 }
 
-#video{
+.rockets-video {
 	width: 600px;
 	order: 2;
 }
@@ -76,10 +72,11 @@
 }
 
 @media (max-width: 768px) {
-	#video{
+	.rockets-video {
 		width: 100%;
 		order: 2;
 	}
+
 	.home_table {
 		margin: 30px 0;
 	}
@@ -87,6 +84,7 @@
 	.home_table-column {
 		min-width: 120px;
 	}
+
 	.logo-title {
 		padding-left: 10%;
 	}
